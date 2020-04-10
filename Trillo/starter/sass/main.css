@@ -149,9 +149,37 @@ body {
   fill: var(--color-gray-dark-3);
 }
 
+.user-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+}
+
+.user-nav > * {
+  padding: 0 2rem;
+  cursor: pointer;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.user-nav > *:hover {
+  background-color: var(--color-gray-light-2);
+}
+
 .user-nav__icon {
   height: 2.25rem;
   width: 2.25rem;
+  fill: var(--color-gray-dark-2);
 }
 
 .user-nav__user-photo {

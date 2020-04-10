@@ -37,6 +37,11 @@
         &:focus{
             outline: none;
         }
+
+        &::-webkit-input-placeholder {
+            font-weight: 100;
+            color: var(--color-gray-light-4);
+        }
     }
     &__icon{
         height:2rem;

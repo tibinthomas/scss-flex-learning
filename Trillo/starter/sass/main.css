@@ -272,4 +272,15 @@ Side Navigation
   padding: 2.5rem;
   color: var(--color-gray-light-4);
 }
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery__photo {
+  width: 100%;
+  display: block;
+}
 /*# sourceMappingURL=main.css.map */
